@@ -1,0 +1,13 @@
+@import 'src/styles/vars';
+
+#app {
+  &-title {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 1rem;
+    color: lighten($main-color, 10%);
+  }
+}
